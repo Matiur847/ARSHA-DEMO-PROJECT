@@ -33,7 +33,11 @@
 
 .subs-input input {
     border: none;
-    padding: 5px 70px;
+    padding: 4px 70px;
+}
+
+input[type="email"]:focus {
+    outline: none;
 }
 
 .subs-input button {

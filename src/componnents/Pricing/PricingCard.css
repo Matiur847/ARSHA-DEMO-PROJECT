@@ -1,5 +1,5 @@
 .pricing-section {
-    padding: 60px 0px;
+    padding: 30px 0px;
 }
 
 .pricing-card {
@@ -23,7 +23,7 @@
 }
 
 .pricing-card h2 {
-    font-size: 48px;
+    font-size: 30px;
     color: #37517e;
     font-weight: 400;
     font-family: "Jost", sans-serif;
@@ -31,12 +31,12 @@
 }
 
 .pricing-card h2 sup {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .price-head span {
     color: #47b2e4;
-    font-size: 20px;
+    font-size: 17px;
     display: block;
 }
 
