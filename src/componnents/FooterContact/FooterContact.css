@@ -1,0 +1,48 @@
+.footer-contact {
+    padding: 50px 0px;
+}
+
+.footer-content h2 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;
+}
+
+.footer-contact h3 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #37517e;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-contact p {
+    margin: 10px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Jost", sans-serif;
+    color: #5e5e5e;
+}
+
+.footer-content h5 {
+    font-weight: bolder;
+    color: #5e5e5e;
+}
+
+.footer-content h5 span {
+    font-size: 14px;
+}
+
+.footerContactIcon a {
+    padding: 20px;
+    background-color: #209DD8;
+}
+
+.split {
+    align-items: center;
+}

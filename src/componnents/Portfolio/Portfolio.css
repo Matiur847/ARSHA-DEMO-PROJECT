@@ -1,0 +1,59 @@
+.portfolio-section {
+    margin: 40px 0px;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+
+.portfolio p {
+    margin-bottom: 40px;
+    color: #848484;
+}
+
+.portfolio h2::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin-top: 20px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.portfolio h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 21px;
+    left: calc(50% - 60px);
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: 0.3s;
+}
+
+.btnActive {
+    background: #47b2e4 !important;
+    color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+

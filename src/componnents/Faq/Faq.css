@@ -1,0 +1,18 @@
+.faq-section {
+    background-color: #F3F5FA;
+    padding: 50px 0px;
+}
+
+.accordionCard {
+    margin: 30px 0px;
+    box-shadow: 10px 10px 10px rgba(30, 30, 54, 0.199);
+}
+
+.collapsed h4 {
+    color: #37517e;
+    transition: 0.3s;
+}
+
+.collapsed:hover  h4 {
+    color: goldenrod;
+}

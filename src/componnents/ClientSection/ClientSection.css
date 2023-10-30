@@ -1,0 +1,31 @@
+.client-s {
+    background-color: #f3f5fa;
+    width: 100%;
+}
+
+.client-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    margin: 0 60px;
+    width: 7%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    filter: grayscale(100);
+}
+
+.img img:hover {
+    transform: scale(1.50);
+}

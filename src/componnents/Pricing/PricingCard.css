@@ -1,0 +1,95 @@
+.pricing-section {
+    padding: 60px 0px;
+}
+
+.pricing-card {
+        box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.281);
+    background-color: #FFFFFF;
+    /* margin: 40px; */
+    padding: 40px;
+    border: 1px solidb rgb(8, 243, 8);
+    border-radius: 5px;
+}
+
+.thirdDiv {
+    border-top: 5px solid blue;
+}
+
+.pricing-card h4 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #37517e;
+}
+
+.pricing-card h2 {
+    font-size: 48px;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 25px;
+}
+
+.pricing-card h2 sup {
+    font-size: 28px;
+}
+
+.price-head span {
+    color: #47b2e4;
+    font-size: 20px;
+    display: block;
+}
+
+.split {
+    display: flex;
+    font-size: 20px;
+}
+
+.split i {
+    margin: 0px 10px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.priceActiv {
+    margin-top: 10px;
+    background: #47b2e4;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    /* color: #47b2e4; */
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+
+.priceActiv:hover {
+    background: transparent;
+    color: #47b2e4;
+}
+
+.pricingBtn {
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #47b2e4;
+    color: #47b2e4;
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+}
+
+.pricingBtn:hover {
+    background-color: #47b2e4;
+    color: white;
+}
